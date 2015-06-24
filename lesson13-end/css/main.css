@@ -1,0 +1,121 @@
+/*************************** STARS ****************************/
+#stars {
+	background: #425169 url('../img/stars.gif') top center;
+	width: 100%;
+	height: 8000px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+/*************************** IMAGES ****************************/
+#images {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 200;
+}
+
+#images img {
+	padding-top: 50px;
+}
+
+#img-moon {
+	position: absolute;
+	top: 1500px;
+	left: 50%;
+}
+
+#img-rocket {
+	position: absolute;
+	top: 3000px;
+	left: 50%;
+}
+
+#img-saturn {
+	position: absolute;
+	top: 4500px;
+	left: 50%;
+}
+
+/*************************** CONTENT ****************************/
+#content {
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	z-index: 300;
+}
+
+#content article {
+	padding-top: 50px;
+	width: 350px;
+}
+
+#content article h2 {
+	color: #b2c1cd;
+	font-size: 34px;
+	margin-bottom: 0;
+}
+
+#content article#home {
+	width: 960px;
+}
+
+#moon {
+	position: absolute;
+	top: 2775px;
+}
+
+#rocket {
+	position: absolute;
+	top: 5775px;
+}
+
+#saturn {
+	position: absolute;
+	top: 8775px;
+	padding-bottom: 800px;
+}
+
+/*************************** EARTH ****************************/
+#earth {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	z-index: 900;
+}
+/*************************** NAVIGATION ****************************/
+#main-nav {
+	background-color: #303d50;
+	height: 35px;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+#main-nav ul {
+	width: 960px;
+	margin: 0 auto;
+	height: 25px;
+	padding-top: 10px;
+}
+
+#main-nav ul li {
+	float: left;
+	height: 30px;
+	width: 200px;
+	padding-left: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#main-nav ul li a {
+	color :#f1ecb9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
